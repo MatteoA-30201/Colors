@@ -12,7 +12,6 @@
     }
 
     th {
-      color: teal;
       text-align: center;
       border: 2px solid black;
     }
@@ -26,21 +25,24 @@
       width: 600px;
     }
 
-    p {
-      padding-bottom: 2x;
-      padding-right: 60%;
-      color: teal;
-      font-size: 200%;
+    div.Subject1 {
+      width: 600px;
     }
 
-    Div.Colorlist {
-      color: gray;
+    div.Subject2 {
+      width: 600px;
+    }
+
+    span {
+      padding-bottom: 2x;
+      padding-right: 10%;
+      font-size: 150%;
     }
   </style>
 </head>
 
 <body>
-  <div class="Colorlist">
+  <div>
     <table>
       <tr>
         <th></th>
@@ -51,29 +53,44 @@
       <tr>
         <td style="width: 10px;">RGB</td>
         <td class="Subject">
-      <!-- Coolors Palette Widget -->
-      <script src="https://coolors.co/palette-widget/widget.js"></script>
-      <script data-id="05455165642294446">new CoolorsPaletteWidget("05455165642294446", ["000000","232323","373837","545454","757575","9a9a9a"]); </script>
-
-          <p style="padding-left: 80px;"><strong>0,0,0⠀⠀⠀⠀⠀⠀⠀35,35,35⠀⠀⠀⠀⠀⠀55,56,55⠀⠀⠀⠀⠀⠀84,84,84⠀⠀⠀⠀⠀117,117,117⠀⠀⠀⠀154,154,154</strong></p>
+          <!-- Coolors Palette Widget -->
+          <script src="https://coolors.co/palette-widget/widget.js"></script>
+          <script
+            data-id="05455165642294446">new CoolorsPaletteWidget("05455165642294446", ["000000", "232323", "373837", "545454", "757575", "9a9a9a"]);</script>
+          <!--Span tag not working-->
+          <div style="padding-left: 80px;">
+            <span style="color: rgb(0,0,0);">0,0,0</span><span style="color: rgb(35,35,35);">⠀⠀⠀35,35,35</span><span style="color: rgb(55,56,55);">⠀⠀55,56,55</span><span style="color: rgb(84,84,84);">84,84,84</span><span style="color: rgb(117,117,117);">⠀117,117,117</span><span style="color: rgb(154,154,154);">154,154,154</span></div>
+          <!--Span tag not working-->
         </td>
       </tr>
       <tr>
         <td style="width: 10px;">HEX</td>
-        <td class="Subject">  
-  <!-- Coolors Palette Widget -->
-      <script src="https://coolors.co/palette-widget/widget.js"></script>
-      <script data-id="09670174868220689">new CoolorsPaletteWidget("09670174868220689", ["0b2e3b","125d69","36a68d","9cd8d0","74ccc6","4bbfbb"]); </script>
-          <p style="padding-left: 80px;"><strong>4bbfbb⠀⠀⠀⠀⠀⠀125d69⠀⠀⠀⠀⠀⠀⠀36a68d⠀⠀⠀⠀⠀⠀9cd8d0⠀⠀⠀⠀⠀⠀⠀74ccc6⠀⠀⠀⠀⠀⠀4bbfbb</strong></p>
+        <td class="Subject1">
+          <!-- Coolors Palette Widget -->
+          <script src="https://coolors.co/palette-widget/widget.js"></script>
+          <script
+            data-id="09670174868220689">new CoolorsPaletteWidget("09670174868220689", ["0b2e3b", "125d69", "36a68d", "9cd8d0", "74ccc6", "4bbfbb"]);</script>
+          <!--Span tag not working-->
+          <div style="padding-left: 80px;">
+            <span style="color: #0b2e3b;">0b2e3b</span><span style="color: #125d69;">⠀⠀125d69</span><span
+              style="color: #36a68d;">⠀⠀36a68d</span><span style="color: #9cd8d0;">⠀⠀9cd8d0</span><span
+              style="color: #74ccc6;">⠀⠀74ccc6</span><span style="color: #4bbfbb;">⠀⠀4bbfbb</span>
+          </div>
+          <!--Span tag not working-->
         </td>
       </tr>
       <tr>
         <td style="width: 10px;">HEX</td>
-        <td class="Subject"> 
- <!-- Coolors Palette Widget -->
-      <script src="https://coolors.co/palette-widget/widget.js"></script>
-      <script data-id="08661254355243284">new CoolorsPaletteWidget("08661254355243284", ["152614","1e441e","2a7221","119822","31cb00","44d017"]); </script>
-          <p style="padding-left: 80px;"><strong>152614⠀⠀⠀⠀⠀⠀1e441e⠀⠀⠀⠀⠀⠀⠀2a7221⠀⠀⠀⠀⠀⠀119822⠀⠀⠀⠀⠀⠀⠀31cb00⠀⠀⠀⠀⠀⠀44d017</strong></p>
+        <td class="Subject2">
+          <!-- Coolors Palette Widget -->
+          <script src="https://coolors.co/palette-widget/widget.js"></script>
+          <script
+            data-id="08661254355243284">new CoolorsPaletteWidget("08661254355243284", ["152614", "1e441e", "2a7221", "119822", "31cb00", "44d017"]);</script>
+          <!--Span tag not working-->
+          <div style="padding-left: 80px;">
+            <span style="color: #152614;">152614</span><span style="color: #1e441e;">⠀⠀1e441e</span><span style="color: #2a7221;">⠀⠀2a7221</span><span style="color: #119822;">⠀⠀119822</span><span style="color: #31cb00;">⠀⠀31cb00</span><span style="color: #44d017;">⠀⠀44d017</span>
+          </div>
+          <!--Span tag not working-->
         </td>
       </tr>
     </table>
